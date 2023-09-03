@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8c45a924-b99e-4b02-8ac5-ea211624da8d" name="webdev-step7" url="http://webdev.cse.msu.edu/~shulian1/step7">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/shulian1/classweb/step7" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a5f3c735-43f9-4a9b-ac9a-cca4b5cf8d45" name="webdev-step8" url="http://webdev.cse.msu.edu/~shulian1/step8">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/shulian1/classweb/step8" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

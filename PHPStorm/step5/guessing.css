@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+form{
+    text-align: center;
+    width:21em;
+    border:thin solid black;
+    margin-left: auto;
+    margin-right:auto;
+}
+h1{
+    background: red;
+    margin-top: 0;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: "Arial", serif;
+    padding-left: 0.5em;
+}
+
+.message{
+    text-align: left;
+    padding-left: 0.5em;
+}
+
+input[type="submit"] {
+    width: 7em;
+}
+
+input[name="value"]{
+    width:3em;
+}

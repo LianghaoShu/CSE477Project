@@ -1,0 +1,170 @@
+@charset "utf-8";
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body {
+    background-image: url("cave-background.jpg");
+    background-color:black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 650px;
+    font-family: "Arial", serif;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+h1, h2{
+    width:650px;
+}
+
+header{
+    background-color:#3f3622;
+}
+
+header p{
+    padding-left: 28em;
+    font-family: "Times New Roman", serif;
+}
+
+header h1{
+    font-size:3em;
+    color:white;
+    padding: 0.2em 1em 0.15em 1.8em;
+}
+
+div.main {
+    background-color:white;
+}
+
+
+div.script{
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+#first{
+    padding-bottom: 1em;
+}
+
+
+
+div.welcomescript{
+    font-size: 1.7em;
+    padding-bottom:1em;
+    padding-left:3.5em;
+}
+
+div.welcomescript p{
+    margin-bottom:1em;
+}
+
+#tile{
+    font-style: italic;
+    font-size:1.2em;
+}
+
+.operation{
+    font-size:0.9em;
+    padding-left:6.8em;
+}
+
+div.inline{
+    display:inline-block;
+}
+
+
+
+
+figure img{
+    margin:1em;
+    border: thin solid black;
+    padding: 0.5em;
+}
+
+div.room {
+    width: 200px;
+    display: inline-block;
+
+}
+
+div.room img{
+    border: none;
+    padding:0;
+}
+
+div.rooms {
+    padding-left:2em;
+    margin-bottom:1em;
+}
+
+.room p{
+    text-align: center;
+}
+
+div.room figure img{
+    margin:0;
+}
+
+a:link{
+    color:#3f3622;
+}
+
+a:visited{
+    color:#3f3622;
+}
+
+nav a:link{
+    color:white;
+}
+
+nav a:visited{
+    color:gray;
+}
+
+div.rooms a:link{
+    color:#3f3622;
+}
+
+.instruction{
+    font-family: "Times New Roman", serif;
+    text-align: justify;
+    align-content:center;
+    padding-left:1em;
+    padding-right:1em;
+    margin-bottom: 2em;
+
+}
+
+.action{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 1.3em;
+
+}
+
+#victory{
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom:1em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
